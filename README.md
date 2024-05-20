@@ -10,6 +10,7 @@ If you want to support another OS or provide a fix/improvement, open a pull requ
 # Currently supported devices:
 - Samsung Galaxy S6
 - Samsung Galaxy S6 Edge
-- Samsung Galaxy Note5 (12.1 only)  
+- Samsung Galaxy Note5 (12.1 only)
+    
 **WIP** 
 - Samsung Galaxy S6 Edge+ (12.1 only)
