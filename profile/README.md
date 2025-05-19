@@ -1,7 +1,7 @@
 # Samsung Exynos 7420 Github
 This is the (unofficial) GitHub for Samsung Exynos 7420 development.
 
-This GitHub supports Lineage 18.1, Lineage 19.1 and Lineage 20. 
+This GitHub supports Lineage 18.1, Lineage 19.1 and Lineage 20. You can find a sample local_manifest here: <https://github.com/samsungexynos7420/local_manifests>
 
 Building LineageOS 19.1 and 20 requires patching the sources in order to get boot and functions working properly. All the patches that are needed for this are located at <https://github.com/samsungexynos7420/7420_patches> and **MUST** be applied, else you will not get a working device. 
 
