@@ -16,9 +16,11 @@ Building LineageOS 19.1 or later requires patching the sources in order to get b
 - Samsung W2016
 
 # Supported OSes
+- crDroid 7 (A11)
 - Lineage 18.1 (A11)
 - Lineage 19.1 (A12L)
 - Lineage 20.0 (A13)
+- Lineage 21.0 (A14)
 
 # Have some improvement you want to add?
 Open a pull request and I will look at it. Any help is welcome as long as it isn't malicious or could break things. 
@@ -26,11 +28,10 @@ Open a pull request and I will look at it. Any help is welcome as long as it isn
 # TODO:
 ## Kernel
 - Implement cgroup v2 
-- Update sched and implement EAS
-- Update throttling/hotplug behaviour
+- Implement EAS
+- Update thermal throttling/hotplug behaviour
 - Fix broken endianness regmap in audio drivers
-- Add VDSO32
-- Add working aio f_fs
+- Add VDSO32/timers
 
 ## Other stuff
 - Fix virtualdisplay compilation
@@ -38,4 +39,3 @@ Open a pull request and I will look at it. Any help is welcome as long as it isn
 - Fix NFC not initialising properly after restarting when turned off
 - Better auto brightness
 - Fix libsensor shim
-- Patches for Lineage 21 
