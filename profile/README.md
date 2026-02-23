@@ -1,9 +1,9 @@
 # 🔥 Samsung Exynos 7420 Organization 🔥
 The (un)official Samsung Exynos 7420 GitHub organization. Attempting to tame and update the 7420 since 2022.
 
-Currently supporting Lineage 18.1, Lineage 19.1 and Lineage 20 (not other AOSP/forks). You can find a sample local_manifest here: <https://github.com/samsungexynos7420/local_manifests>
+Currently supporting LineageOS (not other AOSP/forks). You can find a sample local_manifest here: <https://github.com/samsungexynos7420/local_manifests>
 
-Building LineageOS 19.1 or later requires patching the sources in order to get boot and some functions working properly. All the patches that are needed for this are located at <https://github.com/samsungexynos7420/7420_patches> and **MUST** be applied. 
+Building requires patching the sources in order to get some functions working properly. All the patches that are needed for this are located at <https://github.com/samsungexynos7420/7420_patches> and **MUST** be applied. 
 
 # Currently supported devices:
 - Samsung Galaxy S6 (International, TMobile, Canada)
@@ -32,10 +32,10 @@ Open a pull request and I will look at it. Any help is welcome as long as it isn
 - Update thermal throttling/hotplug behaviour
 - Fix broken endianness regmap in audio drivers
 - Add VDSO32/timers
+- Move away from plat/mach
 
 ## Other stuff
 - Fix virtualdisplay compilation
 - Build Camera HAL and dependancies from source
-- Fix NFC not initialising properly after restarting when turned off
 - Better auto brightness
 - Fix libsensor shim
