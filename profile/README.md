@@ -3,7 +3,7 @@ The (un)official Samsung Exynos 7420 GitHub organization. Attempting to tame and
 
 Currently supporting LineageOS (not other AOSP/forks). You can find a sample local_manifest here: <https://github.com/samsungexynos7420/local_manifests>
 
-Building requires patching the sources in order to get some functions working properly. All the patches that are needed for this are located at <https://github.com/samsungexynos7420/7420_patches> and **MUST** be applied. 
+Building requires patching the sources in order to get some functions working properly and **MUST** be applied. All the patches that are needed for this are located at <https://github.com/samsungexynos7420/7420_patches>  
 
 # Currently supported devices:
 - Samsung Galaxy S6 (International, TMobile, Canada)
@@ -27,15 +27,12 @@ Open a pull request and I will look at it. Any help is welcome as long as it isn
 
 # TODO:
 ## Kernel
-- Implement cgroup v2 
 - Implement EAS
-- Update thermal throttling/hotplug behaviour
 - Fix broken endianness regmap in audio drivers
 - Add VDSO32/timers
 - Move away from plat/mach
 
 ## Other stuff
 - Fix virtualdisplay compilation
-- Build Camera HAL and dependancies from source
+- Build Camera HAL and dependencies from source
 - Better auto brightness
-- Fix libsensor shim
